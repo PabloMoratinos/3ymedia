@@ -1,0 +1,11 @@
+// Control de overlays
+document.querySelector ("[aria-label^='superposición Fondo-1']").setAttribute("accesskey","p");
+document.querySelector ("[aria-label^='superposición 3ymedia-school']").setAttribute("accesskey","o");
+// Control de layouts
+document.querySelector ("[aria-label^='Diseño Individual. La cámara del anfitrión ocupa todo el espacio. Si no hay una cámara de anfitrión, se utiliza la del primer invitado que se agregó.']").setAttribute("accesskey","z");
+document.querySelector ("[aria-label^='Diseño ligero. Todas las cámaras son visibles y se combinan para llenar todo el espacio.']").setAttribute("accesskey","x");
+document.querySelector ("[aria-label^='Diseño de grupo. Todas las cámaras son visibles y espaciadas.']").setAttribute("accesskey","c");
+document.querySelector ("[aria-label^='Diseño de líder. Todas las cámaras son visibles. Una es más grande que las demás.']").setAttribute("accesskey","v");
+document.querySelector ("[aria-label^='Diseño de pantalla pequeña. Se ve una cámara y la pantalla compartida. Si no hay pantalla, se comporta como el diseño de líder.']").setAttribute("accesskey","b");
+document.querySelector ("[aria-label^='Diseño de pantalla grande. La pantalla compartida es grande, todas las cámaras son visibles pero pequeñas. Si no hay pantalla, se comporta como el diseño de grupo.']").setAttribute("accesskey","n");
+document.querySelector ("[aria-label^='Diseño de pantalla completa. Solo la pantalla compartida es visible. Si no hay pantalla, se comporta como el diseño de grupo.']").setAttribute("accesskey","m");
