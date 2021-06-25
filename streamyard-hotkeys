@@ -1,6 +1,21 @@
 // Control de overlays
 document.querySelector ("[aria-label^='superposición Fondo-1']").setAttribute("accesskey","p");
 document.querySelector ("[aria-label^='superposición 3ymedia-school']").setAttribute("accesskey","o");
+
+// Control de títulos - Activar/Desactivar
+document.querySelector ("[id='switch_JN1CEUKo6jWU']").setAttribute("accesskey","r");
+
+// Control de vídeos
+document.querySelector ("[aria-label^='superposición IN UBAC']").setAttribute("accesskey","i");
+document.querySelector ("[aria-label^='superposición OUT UBAC']").setAttribute("accesskey","u");
+document.querySelector ("[aria-label^='superposición promo-redcast-720p']").setAttribute("accesskey","y");
+document.querySelector ("[aria-label^='superposición Central Reservas spot']").setAttribute("accesskey","t");
+
+// Control de fondos
+document.querySelector ("[aria-label^='fondo ubac-fondo']").setAttribute("accesskey","e");
+document.querySelector ("[aria-label^='fondo intro-UBAC']").setAttribute("accesskey","w");
+document.querySelector ("[aria-label^='fondo 11']").setAttribute("accesskey","q");
+
 // Control de layouts
 document.querySelector ("[aria-label^='Diseño Individual. La cámara del anfitrión ocupa todo el espacio. Si no hay una cámara de anfitrión, se utiliza la del primer invitado que se agregó.']").setAttribute("accesskey","z");
 document.querySelector ("[aria-label^='Diseño ligero. Todas las cámaras son visibles y se combinan para llenar todo el espacio.']").setAttribute("accesskey","x");
